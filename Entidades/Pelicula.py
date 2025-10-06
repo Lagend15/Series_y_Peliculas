@@ -1,73 +1,49 @@
 class Pelicula:
+    id: int = 0
 
-    id_pelicula: int = 0;
- 
-    def GetId_pelicula(self) -> int:
+    def GetId(self) -> int:
+        return self.id
+    def SetId(self, value: int) -> None:
+        self.id = value
 
-        return self.id_pelicula;
+    titulo: str = None
 
-    def SetId_pelicula(self, value: int) -> None:
-
-        self.id_pelicula = value;
- 
-    titulo: str = None;
- 
     def GetTitulo(self) -> str:
-
-        return self.titulo;
-
+        return self.titulo
     def SetTitulo(self, value: str) -> None:
+        self.titulo = value
 
-        self.titulo = value;
- 
-    id_categoria: int = 0;
- 
-    def GetId_categoria(self) -> int:
+    categoria: int = 0
 
-        return self.id_categoria;
+    def GetCategoria(self) -> int:
+        return self.categoria
+    def SetCategoria(self, value: int) -> None:
+        self.categoria = value
 
-    def SetId_categoria(self, value: int) -> None:
+    estado: int = 0
 
-        self.id_categoria = value;
- 
-    id_estado: int = 0;
- 
-    def GetId_estado(self) -> int:
+    def GetEstado(self) -> int:
+        return self.estado
+    def SetEstado(self, value: int) -> None:
+        self.estado = value
 
-        return self.id_estado;
+    director: int = 0
 
-    def SetId_estado(self, value: int) -> None:
+    def GetDirector(self) -> int:
+        return self.director
+    def SetDirector(self, value: int) -> None:
+        self.director = value
 
-        self.id_estado = value;
- 
-    id_director: int = 0;
- 
-    def GetId_director(self) -> int:
+    duracion: int = 0
 
-        return self.id_director;
-
-    def SetId_director(self, value: int) -> None:
-
-        self.id_director = value;
- 
-    duracion: int = 0;
- 
     def GetDuracion(self) -> int:
-
-        return self.duracion;
-
+        return self.duracion
     def SetDuracion(self, value: int) -> None:
+        self.duracion = value
 
-        self.duracion = value;
- 
-    anio_estreno: int = 0;
- 
-    def GetAnio_estreno(self) -> int:
+    anio_estreno: int = 0
 
-        return self.anio_estreno;
-
-    def SetAnio_estreno(self, value: int) -> None:
-
-        self.anio_estreno = value;
-
- 
+    def GetAnioEstreno(self) -> int:
+        return self.anio_estreno
+    def SetAnioEstreno(self, value: int) -> None:
+        self.anio_estreno = value
