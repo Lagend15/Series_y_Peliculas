@@ -39,7 +39,7 @@ def main():
     # ==============================
     # EJEMPLOS DE CRUD
     # ==============================
- 
+    # Descomenta uno a uno para probar cada operación
 
     # ------------------------------
     # ESTADOS
