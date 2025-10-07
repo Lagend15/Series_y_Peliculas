@@ -39,13 +39,13 @@ def main():
     # ==============================
     # EJEMPLOS DE CRUD
     # ==============================
-    # Descomenta uno a uno para probar cada operación
+ 
 
     # ------------------------------
     # ESTADOS
     # ------------------------------
-    # conexion.InsertarEstado("Prueba Estado")
-    # conexion.ActualizarEstado(1, "Disponible")
+    # conexion.InsertarEstado("nuevo estado")
+    # conexion.ActualizarEstado(1, "valor diferente")
     # conexion.EliminarEstado(8)
 
     # ------------------------------
@@ -53,21 +53,21 @@ def main():
     # ------------------------------
     # conexion.InsertarActor("Actor Prueba", "Pais Prueba")
     # conexion.ActualizarActor(1, "Actor Actualizado", "Pais Actualizado")
-    # conexion.EliminarActor(1)
+    # conexion.EliminarActor(6)
 
     # ------------------------------
     # PELÍCULAS
     # ------------------------------
     # conexion.InsertarPelicula("Película Prueba", 1, 1, 1, 120, 2025)
     # conexion.ActualizarPelicula(1, "Película Actualizada", 1, 1, 1, 150, 2024)
-    # conexion.EliminarPelicula(1)
+    # conexion.EliminarPelicula(6)
 
     # ------------------------------
     # SERIES
     # ------------------------------
     # conexion.InsertarSerie("Serie Prueba", 1, 1, 1, 2025, 2026)
-    # conexion.ActualizarSerie(1, "Serie Actualizada", 1, 1, 1, 2020, 2022)
-    # conexion.EliminarSerie(1)
+    # conexion.ActualizarSerie(6, "Serie Actualizada", 1, 1, 1, 2020, 2022)
+    conexion.EliminarSerie(6)
 
 if __name__ == "__main__":
     main()

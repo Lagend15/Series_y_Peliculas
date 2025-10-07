@@ -512,8 +512,3 @@ INSERT INTO reseñas (id_usuario, tipo_contenido, id_contenido, comentario, cali
 (3, 'Serie', 1, 'Increíble serie', 5, '2025-10-05'),
 (4, 'Serie', 2, 'Entretenida', 4, '2025-10-05'),
 (5, 'Pelicula', 5, 'Visualmente impresionante', 5, '2025-10-05');
-
-
--- ============================================================
--- FIN DEL SCRIPT
--- ============================================================
